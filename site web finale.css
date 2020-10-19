@@ -1,0 +1,52 @@
+.logo img {
+width: 140px;
+height: 80px;
+}
+body {
+	background: url('vrai image.png') no-repeat;
+	background-size: cover;
+	color: gold;
+	font-family: sans-serif;
+}
+	
+.component {
+	height: 80px;
+	background-color: black;
+	width: 858px;
+}
+ul {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+ul li{
+	float: left;
+	width: 170px;
+	height: 40px;
+	background-color: black;
+	opacity: .8;
+	line-height: 40px;
+	text-align: center;
+	font-size: 20px;
+	margin-right: 2px;
+}
+ul li a {
+	text-decoration: none;
+	color: white;
+	display: block;
+}
+a:hover{
+	background: gold;
+}
+ul li ul li {
+	display: none;
+}
+ul li:hover ul li {
+	display: block;
+}
+p {
+	color: black;
+	text-align: center;
+	font-size: 20px;
+	height: 80px;
+}
